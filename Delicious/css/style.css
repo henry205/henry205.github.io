@@ -5,6 +5,16 @@
     Author URL: https://bootstrapmade.com
 */
 
+.container {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.row {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-size: 20px;
     line-height: 1.52;
