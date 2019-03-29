@@ -4,7 +4,16 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
-
+.container { 
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+.row {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;	
+}	
 body {
 	font-size: 20px;
     line-height: 1.52;
