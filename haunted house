@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <title>Anna Dowlin</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://pmctvline2.files.wordpress.com/2019/01/famil-guy-recap.jpg");
+      background-size: cover;
+      background-position: center;
+      color: blue;
+      
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: yellow;
+      color: black;
+    }
+    img {
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://www.freepngimg.com/thumb/usa/3-2-america-flag-png-picture-thumb.png">
+  <p id="pancake2"></p>
+  <input id = "pancake">
+  <input type="submit" onclick = "submit()">
+  <script>
+  joke = document.getElementById("pancake2")
+  
+  prompts = { 
+    choice:"you are now in the haunted house do you want to keep walking or go back home",
+    fate:"its now to late to turn back",
+    loser:" your a punk, are sure you want to leave",
+  }
+  
+  jump = document.getElementById("pancake")
+  
+ function submit()  {
+   if (jump.value == "go back home") {
+		//alert("   nhgjg        ")
+		joke.innerHTML=prompts.loser
+		jump.value = ""
+   }
+   if (jump.value == "keep walking") {
+		//alert("   nhgjg        ")
+		joke.innerHTML=prompts.fate
+		jump.value = ""
+   }
+   
+    if (jump.value == "keep walking") {
+		//alert("   nhgjg        ")
+		joke.innerHTML=prompts.fate
+		jump.value = ""
+   }
+}
+
+  
+  
+joke.innerHTML = prompts.choice
+  
+  
+  </script>
+</body>.
