@@ -50,6 +50,11 @@ function setup() {
 }
 
 function draw() {
+	
+  if (touches.length == 0)   {
+
+	controls for main character
+	
   if (keyIsDown(LEFT_ARROW)) {
     x = x - 8
   }
@@ -62,6 +67,9 @@ function draw() {
   if (keyIsDown(DOWN_ARROW)) {
     y = y + 8
   }
+  }
+	
+	
   if (time > 0){
   background(220,230,240);
   circle(x,y,17*s)
