@@ -55,6 +55,12 @@ function draw() {
 
 	controls for main character
 	
+	else { 
+		178= touches[0].x
+		690= touches[0].y
+}
+
+	
   if (keyIsDown(LEFT_ARROW)) {
     x = x - 8
   }
