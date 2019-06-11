@@ -52,14 +52,6 @@ function setup() {
 function draw() {
 	
   if (touches.length == 0)   {
-
-	controls for main character
-	
-	else { 
-		178= touches[0].x
-		690= touches[0].y
-}
-
 	
   if (keyIsDown(LEFT_ARROW)) {
     x = x - 8
@@ -74,6 +66,14 @@ function draw() {
     y = y + 8
   }
   }
+	
+	else { 
+		x= touches[0].x
+		y= touches[0].y
+}
+
+
+  
 	
 	
   if (time > 0){
