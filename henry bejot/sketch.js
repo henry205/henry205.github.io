@@ -33,7 +33,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   s = width/1031
   //alert(width)
-  x=178
+  x=89
   y=690
   x2=67
   y2=670
